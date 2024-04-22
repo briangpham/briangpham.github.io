@@ -1,4 +1,4 @@
-# Electrical Engineer
+# Brian Pham
 
 ## About Me
 
