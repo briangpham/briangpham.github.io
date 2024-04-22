@@ -10,4 +10,5 @@ My current goals include pursuing a career as an FPGA firmware design engineer, 
 ## Education
 
 **California State University, Long Beach** | **Long Beach, CA**
+
   B.Sc. in Electrical Engineering | August 2022 - Present
