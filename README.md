@@ -6,4 +6,4 @@ I am an Electrical Engineering undergraduate student at California State Univers
 
 **California State University, Long Beach**
 
-  B.Sc. in Electrical Engineering
+  B.Sc. in Electrical Engineering, August 2022 - Present
