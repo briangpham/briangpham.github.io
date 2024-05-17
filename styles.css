@@ -1,59 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:500');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #24252A;
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-li, a, button {
-  font-family: "Work+Sans", sans-serif;
-  font-weight: 500;
-  font-size: 16 px;
-  color: #edf0f1;
-  text-decoration: none;
+nav {
+    background-color: #1E1E1E; 
+    padding: 20px 0; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: none; 
 }
 
-header{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.name {
-  cursor: pointer;
-  margin-right: auto;
+nav .name {
+    font-weight: bold;
+    font-size: 28px;
+    color: #fff;
 }
 
-.nav_links {
-  list-style: none;
+nav .nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease; 
 }
 
-.nav_links li {
-  display: incline-block;
-  padding: 0px 20px;
+nav .nav-links a:hover {
+    color: #808080;
 }
 
-.nav_links li a {
-  transition: all 0.3s ease 0s;
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)), url('images/wallpaper.jpeg') no-repeat center center/cover;
+    margin-top: 0; 
+    position: relative;
 }
 
-.nav_links li a:hover {
-  color: #0088a9;
+.about-section .about-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
 }
 
-button {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: rgba(0,136,169,1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+.about-section h1 {
+    font-size: 6rem; 
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
 }
 
-button:hover {
-  background-color: rgba(0,136,169,0.8);
+.about-section .subtext {
+    font-size: 1.5rem; 
+    margin-top: 10px;
+}
+
+.about-text {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
 }
